@@ -1,0 +1,56 @@
+/* Color Styles */
+div[class^="child"] {
+    padding: 0 10px;
+}
+
+.parent {
+    border: 2px solid #606c38;
+    margin: 20px 0;
+}
+
+.child, .child3, .child5, .child7 {
+    background-color: #bc6c25;
+    border: 1px solid #894e19;
+}
+
+.child2, .child4, .child6, .child8 {
+    background-color: #dda15e;
+    border: 1px solid #966b3a;
+}
+
+/* FLEXBOX STYLES */
+.parent {
+    display: flex;
+}
+
+.child {
+    flex: 0 1 auto;
+}
+
+.child2 {
+    flex: 0 1 auto;
+}
+
+.child3 {
+    flex: 1 1 auto;
+}
+
+.child4 {
+    flex: 1 1 auto;
+}
+
+.child5 {
+    flex: 2 1 auto;
+}
+
+.child6 {
+    flex: 1 1 auto;
+}
+
+.child7 {
+    flex: 1 1 auto;
+}
+
+.child8 {
+    flex: 2 1 auto;
+}
